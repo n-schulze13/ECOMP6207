@@ -31,7 +31,7 @@ def leftPath():
         fromStart()
 
 def rightPath():
-    cliff = ["1", "2", "3"]
+    cliff = ["Other hikers and runners pass by, waving hello as they continue on their way.", "Small animals chitter around you as they wake to start their days as well.", "Sitting along the cliffside, the sound of waves crashing against the coast fills your ears in the morning light."]
     print("To the right we go!")
     print("Hiking up the path toward the cliffside, you are rewarded with an unbroken view of the misty skyline with wispy clouds rolling by.")
     choice = input("Would you like to continue toward the (C)liffs or go back to the (S)tart?")
@@ -40,7 +40,7 @@ def rightPath():
         c = input("Would you like to (S)tay here a while or head (H)ome?")
         while c.lower() == "s":
             print(random.choice(cliff))
-            #print a string. Re-ask question, print random new string.
+            c = input("Would you like to (S)tay or head (H)ome?")
         if c.lower() == "h":
             print("Spurred on by the breeze and fresh ocean air, you return home to go about your day")
             endGame()
