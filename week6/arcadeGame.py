@@ -129,7 +129,7 @@ def end_title():
     canvas.delete(title)
     canvas.delete(directions)
 
-# schedule funtions
+# schedule funtions to run
 window.after(1000, end_title)
 window.after(1000, make_candy)
 window.after(1000, move_candy)
