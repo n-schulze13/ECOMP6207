@@ -1,0 +1,35 @@
+Pseudocode outline for final project:
+
+FOREVER
+
+IF a button press
+
+boat move left
+
+IF b button press
+
+boat move right
+
+plastic/trash object move to top screen
+
+plastic/trash object move down screen
+
+IF p/t object touch boat
+
+reset to top
+
+point + 1
+
+ELSE IF p/t object touch bottom
+
+reset to top
+
+point - 1
+
+IF point < 0
+
+PRINT "Game Over!"
+
+HIDE all objects
+
+CHANGE BACKGROUND to game over screen
